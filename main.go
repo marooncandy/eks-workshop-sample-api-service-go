@@ -15,7 +15,7 @@ const IndexHTML = `
 `
 
 func main() {
-    http.HandleFunc('/', Index)
+    http.HandleFunc("/", Index)
     http.ListenAndServe(":8080", nil)
 }
 
